@@ -1,0 +1,103 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("img/vintage.jpeg");
+    background-position: right;
+    background-size: cover;
+    text-transform: capitalize;
+    
+}
+.counterDiv{
+    padding: 1rem 5rem;
+    border:4px solid white;
+    box-shadow: 1px 5px 10px 10px black;
+    text-align: center;
+    
+
+}
+.counter{
+  font-size: 3rem;
+  color: aliceblue;
+  
+}
+.number{
+    font-size: 8rem;
+    color: aliceblue;
+}
+.btn{
+    font-size: 2.5rem;
+    margin: 0px 1rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 4px rgb(79, 64, 46);
+}
+.btn:hover{
+    background-color: bisque;
+}
+.btn:focus{
+    box-shadow: none;
+    background-color: rgb(79, 64, 46);
+}
+
+@media (max-width: 426px) {
+    body {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url("img/vintage.jpeg");
+            background-position: right;
+            background-size: cover;
+            text-transform: capitalize;
+            margin: 0;
+    
+        }
+    
+        .counterDiv {
+            padding: 1rem 5rem;
+            border: 4px solid white;
+            box-shadow: 1px 5px 10px 10px black;
+            text-align: center;
+    
+    
+        }
+    
+        .counter {
+            font-size: 2rem;
+            color: aliceblue;
+    
+        }
+    
+        .number {
+            font-size: 4rem;
+            margin: 2rem;
+            color: aliceblue;
+        }
+    
+        .btn {
+            font-size: 1.5rem;
+            margin: 1rem auto;
+            padding:0.5rem;
+            text-transform: uppercase;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 2px 2px 2px 4px rgb(79, 64, 46);
+            display: block;
+        }
+    
+        .btn:hover {
+            background-color: bisque;
+        }
+    
+        .btn:focus {
+            box-shadow: none;
+            background-color: rgb(79, 64, 46);
+        }
+    
+}
